@@ -8,6 +8,7 @@ import Login from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
 import AddListing from "./components/Addlisting.jsx";
 import ListDetails from "./components/ListDetails.jsx";
+import YourPost from "./components/YourPost.jsx";
 
 import {
   createBrowserRouter,
@@ -18,7 +19,7 @@ import {
 
 import { useAuthContext } from "./contextapi/authcontext/authContext.js";
 import { useTheme } from "./contextapi/themecontext/themeContext.js";
-import YourPost from "./components/Yourpost.jsx";
+
 // import { useEffect } from "react";
 
 function Elements() {
