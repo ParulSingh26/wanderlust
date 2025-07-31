@@ -149,7 +149,7 @@ const {user, setIsLogin} = useAuthContext();
               {localStorage.getItem("token") ? (
                 <img
                   className="w-[60px] cursor-pointer border-2 border-white rounded-full"
-                  src={user.avatar}
+                  src={user?.avatar}
                   alt=""
                   onClick={() => {
                     setOpen(true);
